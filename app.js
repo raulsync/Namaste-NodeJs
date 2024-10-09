@@ -40,3 +40,6 @@ const { linearSearch } = require('./calculate');
 const arr = [1, 2, 5, 6, 7, 9];
 
 console.log(linearSearch(arr, 9));
+
+const data = require('./data.json');
+console.log(data);
